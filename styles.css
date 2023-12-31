@@ -1,31 +1,17 @@
-body {
+  body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
   }
-  
-  .container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-  }
-  
-  .word-list, .flashcards {
+
+  .word-list {
     margin-bottom: 20px;
   }
   
   ul {
     list-style: none;
     padding: 0;
-  }
-  
-  .card {
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    padding: 20px;
-    margin-bottom: 10px;
-    background-color: #fff;
   }
   
   .card-front {
@@ -38,73 +24,16 @@ body {
   
   .card-back.show {
     display: block;
-  }
-
-  .container {
-    max-width: 90%;
-    margin: 0 auto;
-    padding: 20px;
-  }
-  
-  .flashcards {
-    margin-bottom: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .card {
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    padding: 20px;
-    margin-bottom: 10px;
-    background-color: #fff;
-    width: 100%;
-    box-sizing: border-box;
-  }
-  
-  .card-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .card p {
-    margin-bottom: 10px;
-  }
-  
-  .card button {
-    margin-top: 10px;
-  }
-
-  body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-  }
-  
-  .container {
-    max-width: 90%;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: #f0f8ff; /* Light blue background */
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Soft shadow effect */
-  }
-  
-  h1 {
-    color: #333;
     text-align: center;
   }
-  
+
   .flashcards {
     margin-bottom: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  
+ 
   .card {
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -126,6 +55,25 @@ body {
     margin-bottom: 10px;
     color: #333;
   }
+
+  .container {
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f0f8ff; /* Light blue background */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Soft shadow effect */
+  }
+  
+  h1 {
+    color: #333;
+    text-align: center;
+    font-size: 22px;
+  }
+
+  h2 {
+    font-size: 22px;
+  }
   
   .card button {
     margin-top: 10px;
@@ -141,3 +89,33 @@ body {
   .card button:hover {
     background-color: #2980b9; /* Darker blue on hover */
   }
+
+  #word {
+    text-align: center;
+    font-size: 25px;
+  }
+
+  .word-list-link-container {
+    text-align: center;
+  }
+
+ ul {
+    list-style: none;
+    padding: 0;
+ }
+ li {
+    padding: 8px 0;
+    display: flex;
+    align-items: center;
+    font-size: 19px;
+ }
+ span {
+    margin-right: 8px;
+ }
+ .definition {
+    margin-left: 4px; /* Adjust space between : and value */
+    font-size: 19px;
+ }
+ .separator {
+    font-weight: bold;
+ }
