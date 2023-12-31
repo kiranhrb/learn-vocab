@@ -119,6 +119,10 @@
     margin-left: 4px; /* Adjust space between : and value */
     font-size: 19px;
  }
+ #definition {
+    font-size: 22px;
+    padding: 25px;
+ }
  .separator {
     font-weight: bold;
  }

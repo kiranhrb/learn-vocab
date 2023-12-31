@@ -6,7 +6,6 @@ const words = {
   ' Modest '	:	' unassuming or moderate',
   ' Morose '	:	' sullen',
   ' Munificent '	:	' unexpectedly generous',
-  ' Muse '	:	' daughter of Zeus',
   ' Nadir '	:	' lowest point',
   ' Nonplussed '	:	' totally perplexed!',
   ' Obdurate '	:	' stubbornly refusing to change one’s opinion',
