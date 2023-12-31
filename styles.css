@@ -7,11 +7,12 @@
 
   .word-list {
     margin-bottom: 20px;
+    text-align: left;
   }
   
   ul {
     list-style: none;
-    padding: 0;
+    padding: 0;   
   }
   
   .card-front {
@@ -66,13 +67,14 @@
   }
   
   h1 {
-    color: #333;
+    color: rgb(7, 7, 40);
     text-align: center;
     font-size: 22px;
   }
 
   h2 {
     font-size: 22px;
+    color: rgb(7, 7, 40);
   }
   
   .card button {
@@ -93,6 +95,7 @@
   #word {
     text-align: center;
     font-size: 25px;
+    padding: 25px;
   }
 
   .word-list-link-container {
@@ -118,4 +121,7 @@
  }
  .separator {
     font-weight: bold;
+ }
+ #word-list-header {
+    text-align: left;
  }
