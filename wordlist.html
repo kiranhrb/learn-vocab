@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Word List - Vocabulary Learning App</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    /* Additional styles for word list alignment */
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    li {
+      padding: 8px 0;
+      display: flex;
+      align-items: center;
+    }
+    span {
+      margin-right: 8px;
+    }
+    .definition {
+      margin-left: 4px; /* Adjust space between : and value */
+    }
+    .separator {
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Word List</h1>
+    <div class="word-list">
+      <ul id="wordList"></ul>
+    </div>
+    <a href="index.html">Back to Flashcards</a>
+  </div>
+
+  <script src="script.js"></script>
+  <script>
+    function showWordsOnWordListPage() {
+      const wordList = document.getElementById('wordList');
+      Object.entries(words).forEach(([word, definition]) => {
+        const li = document.createElement('li');
+        const wordSpan = document.createElement('span');
+        const separatorSpan = document.createElement('span');
+        const definitionSpan = document.createElement('span');
+
+        wordSpan.textContent = word;
+        separatorSpan.textContent = ': ';
+        definitionSpan.textContent = definition;
+
+        separatorSpan.classList.add('separator');
+        definitionSpan.classList.add('definition');
+
+        li.appendChild(wordSpan);
+        li.appendChild(separatorSpan);
+        li.appendChild(definitionSpan);
+        wordList.appendChild(li);
+      });
+    }
+    showWordsOnWordListPage();
+  </script>
+</body>
+</html>
