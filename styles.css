@@ -129,3 +129,21 @@
  #word-list-header {
     text-align: left;
  }
+
+ .button-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px; 
+}
+
+.button-container button {
+  flex: 1;
+  margin: 0 15px; 
+}
+
+/* #favoriteButtonContainer {
+  display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+} */

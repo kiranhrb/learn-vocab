@@ -12,7 +12,6 @@ const words = {
   ' Oblique '	:	' neither parallel or at a right angle',
   ' Opaque '	:	' not able to be seen through',
   ' Overwrought '	:	' anxiety',
-  ' Paradox '	:	' statement despite sound reasoning leads to conclusion that seems senseless',
   ' Paucity '	:	' the presence of something in small quantities',
   ' Pernicious '	:	' causing subtle harm',
   ' Philistine '	:	' lacking culture and/or hostile to the arts',
@@ -26,25 +25,6 @@ const words = {
   ' Puerile '	:	' infantile',
   ' Purist '	:	' someone who insists on following the letter of the law',
   ' Pyre '	:	' pile of combustible material',
-  ' Quack '	:	' sound make by a duck',
-  ' Quixotic '	:	' idealistic, unrealistic',
-  ' Quotidian '	:	' everyday, unremarkable',
-  ' Reticence '	:	' not revealing one’s thoughts',
-  ' Restive '	:	' restless, uneasy',
-  ' Rue '	:	' bitterly regret',
-  ' Ruminate '	:	' think deeply',
-  ' Philistine '	:	' lacking culture and/or hostile to the arts',
-  ' Placate '	:	' make less angry',
-  ' Platitude '	:	' statement with moral content',
-  ' Plethora '	:	' excessive amount of something',
-  ' Posit '	:	' assume as fact',
-  ' Prodigal '	:	' spending resources wastefully',
-  ' Prophetic '	:	' accurately describing the future',
-  ' Prosaic '	:	' dull, commonplace',
-  ' Puerile '	:	' infantile',
-  ' Purist '	:	' someone who insists on following the letter of the law',
-  ' Pyre '	:	' pile of combustible material',
-  ' Quack '	:	' sound make by a duck',
   ' Quixotic '	:	' idealistic, unrealistic',
   ' Quotidian '	:	' everyday, unremarkable',
   ' Reticence '	:	' not revealing one’s thoughts',
@@ -91,5 +71,6 @@ function nextCard() {
   currentCardIndex = currentCardIndex === wordKeys.length - 1 ? 0 : currentCardIndex + 1;
   showNextCard();
 }
+
 
 showNextCard();
