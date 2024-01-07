@@ -41,11 +41,6 @@ function showNextCard() {
   const cardFront = document.querySelector('.card-front');
   const cardBack = document.querySelector('.card-back');
   
-  if (currentCardIndex >= wordKeys.length) {
-    flashcard.style.display = 'none';
-    return;
-  }
-  
   cardFront.style.display = 'block';
   cardBack.classList.remove('show');
   

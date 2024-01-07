@@ -102,10 +102,6 @@
     text-align: center;
   }
 
- ul {
-    list-style: none;
-    padding: 0;
- }
  li {
     padding: 8px 0;
     display: flex;
@@ -140,10 +136,3 @@
   flex: 1;
   margin: 0 15px; 
 }
-
-/* #favoriteButtonContainer {
-  display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-} */
